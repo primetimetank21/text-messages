@@ -4,6 +4,5 @@ on run {targetPhoneNumber, targetMessageToSend}
         set targetBuddy to buddy targetPhoneNumber of targetService
         set targetMessage to targetMessageToSend
         send targetMessage to targetBuddy
-        say targetMessage
     end tell
 end run
